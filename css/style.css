@@ -1,0 +1,170 @@
+*{padding:0;margin:0;}
+
+
+p{
+  padding-bottom: 18px;
+}
+
+#pageTitle{
+  font-size: 50px;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#h{
+  text-align: center;
+  text-decoration: underline;
+
+}
+
+h1{
+
+  margin: auto;
+  font-size: 8vh;
+  font-weight: bold;
+  margin-top: 2%;
+  text-shadow: 2px 1px #B2B2B2;
+  line-height: normal;
+  font-display: auto;
+  overflow: hidden;
+
+
+
+}
+
+body{
+
+  background-color:  #08C47A;
+  color: #323232;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height:1.6em;
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+
+
+#sideL{
+  position: fixed;
+  padding: 0px;
+  height: 100%;
+  top: 15%;
+  width: 10%;
+  left: auto;
+  background-color: #08C47A;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+#sideR{
+  position: fixed;
+  display: inline-flex;
+  padding: 0px;
+  height: 100%;
+  top: 15%;
+  width: 10%;
+  float: right;
+  left: 90%;
+
+  background-color: #08C47A;
+  display: inline-block;
+  box-sizing: border-box;
+
+}
+
+.container{
+  float: none;
+  width: 60%;
+  margin: auto;
+
+
+  padding: 0px;
+  box-sizing: border-box;
+  padding-top: 10%;
+
+
+
+
+}
+
+#main-header{
+  position: fixed;
+  height: 15%;
+  width: 100%;
+  background-color: #565656;
+  color: #F5F5F5;
+  margin-bottom: 10px;
+  text-align: center;
+  overflow: hidden;
+
+
+}
+
+
+
+.bodyText  {
+
+  margin: 0;
+  padding: 20px;
+
+}
+
+
+#mainPicture{
+  position: static;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  border: 1px solid #08C47A;
+  border-radius: 360px;
+  margin-bottom: 20px;
+
+
+}
+
+#backgroundImage{
+  background-image: url(../images/backGround.jpg);
+  position: fixed;
+  top: 15%;
+  margin: auto;
+  left: 10%;
+  right: 10%;
+  height: 100%;
+  width: auto;
+  z-index: -1;
+
+}
+
+
+
+.cornerPic{
+  position: fixed;
+  border: 1px solid #08C47A;
+  border-radius: 360px;
+  margin-bottom: 20px;
+  left: 92%;
+  z-index: +2;
+  top: 85%;
+}
+
+.openingText{
+  font-family: Arial, Helvetica, sans-serif;
+  line-height:1.6em;
+  font-size: 1.3em;
+  padding-bottom: 30px;
+}
+
+#middleImage{
+  margin: auto;
+  left: 50%;
+  right: 50;
+  width: 631px;
+}
+
+#center{
+  text-align: center;
+}
